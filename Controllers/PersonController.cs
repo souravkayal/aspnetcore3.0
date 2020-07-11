@@ -12,9 +12,9 @@ namespace WebApplication3.Controllers
     public class PersonController : ControllerBase
     {
         [HttpGet("[action]")]
-        public String GetPerson() 
+        public async Task<String> GetPerson() 
         {
-            return "Hello";
+            return "fun";
         }
 
     }
